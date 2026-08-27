@@ -452,8 +452,4 @@ If you use the original LightGCL method or this codebase derived from it, please
 ---
 
 ## 15. Acknowledgement
-
-This implementation is based on the official LightGCL codebase and extends it with a learnable graph augmentation mechanism and explicit ablation settings for experimental analysis.
-=======
-
->>>>>>> e896ef531bbdbc302dcabb18f46004defb7a66c2
+This implementation is based on the official LightGCL codebase and extends it with a learnable graph augmentation mechanism and explicit ablation settings for experimental analysis. Also, this research is partially supported by the research funding from Faculty of Information Technology, University of Science, Ho Chi Minh City, Vietnam.
