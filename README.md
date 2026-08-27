@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AugGCL (LightGCL-improved)
 
 **AugGCL** is a PyTorch implementation of a graph-augmentation-based contrastive learning method for recommendation, developed from the original [LightGCL](https://openreview.net/forum?id=FKXVK9dyMM) codebase.
@@ -461,3 +462,6 @@ If you use the original LightGCL method or this codebase derived from it, please
 ## 15. Acknowledgement
 
 This implementation is based on the official LightGCL codebase and extends it with a learnable graph augmentation mechanism and explicit ablation settings for experimental analysis.
+=======
+
+>>>>>>> e896ef531bbdbc302dcabb18f46004defb7a66c2
