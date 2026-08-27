@@ -53,10 +53,7 @@ With `--view2 graphaug`, AugGCL constructs the auxiliary view as follows:
 
 For the default `full` mode, the optimization objective is
 
-$\mathcal{L}
-= \mathcal{L}_{BPR}
-+ \lambda_1 \mathcal{L}_{CL}
-+ \lambda_2 \mathcal{L}_{2}.$
+$L = L_{BPR} + \lambda_1 L_{CL} + \lambda_2 L_{2}.$
 
 The recommendation backbone in `full` mode remains **View 1**; View 2 is used as the auxiliary contrastive view.
 
