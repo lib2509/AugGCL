@@ -37,9 +37,7 @@ With `--view2 graphaug`, AugGCL constructs the auxiliary view as follows:
 2. **Edge probability prediction**  
    For each candidate pair $(u, i)$, an MLP receives the concatenated user and item embeddings and predicts
 
-   $
-   p_{ui} = \sigma(\mathrm{MLP}([e_u \Vert e_i])).
-   $
+   $p_{ui} = \sigma(\mathrm{MLP}([e_u \Vert e_i])).$
 
 3. **Gumbel-Sigmoid relaxation**  
    During training, the probability is transformed into a differentiable stochastic soft edge value using Gumbel-Sigmoid with temperature `tau1`.
@@ -55,12 +53,10 @@ With `--view2 graphaug`, AugGCL constructs the auxiliary view as follows:
 
 For the default `full` mode, the optimization objective is
 
-$
-\mathcal{L}
+$\mathcal{L}
 = \mathcal{L}_{BPR}
 + \lambda_1 \mathcal{L}_{CL}
-+ \lambda_2 \mathcal{L}_{2}.
-$
++ \lambda_2 \mathcal{L}_{2}.$
 
 The recommendation backbone in `full` mode remains **View 1**; View 2 is used as the auxiliary contrastive view.
 
