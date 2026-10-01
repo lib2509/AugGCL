@@ -6,6 +6,8 @@ The main modification is the construction of **View 2**. Instead of relying only
 
 The repository also retains the original **SVD auxiliary view** as an optional compatibility mode.
 
+This research was accepted as a full paper for oral presentation at KES 2026 (CORE Rank B). Link for accepted paper: 
+
 ---
 
 ## 1. Model overview
